@@ -62,7 +62,7 @@
         <form action="mybooking.php" method="POST">
           <div class="form-group col-sm-10">
             <label for="Name">Name</label>
-            <input type="text" class="form-control" id="Name" aria-describedby="emailHelp" name="name">
+            <input type="text" class="form-control" id="Name" aria-describedby="emailHelp" name="nama">
           </div>
           <div class="form-group col-sm-10">
             <label for="checkin">Check-in</label>
@@ -127,7 +127,7 @@
         </form>
       </div>
       <div class="col py-3 px-lg-5">
-        <img src="<?= $imgSrc;?>" onchange="setPicture()" alt="image-form" style="width:500px;">
+        <img src= onchange="setPicture()" alt="image-form" style="width:500px;">
       </div>
     </div>
   </div>
