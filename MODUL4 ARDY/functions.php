@@ -4,7 +4,7 @@
         session_start();
     }
 
-    $conn = mysqli_connect("localhost","root","","wad_modul4");
+    $conn = mysqli_connect("localhost","root","","wad_modul4_ardy");
 
     function query($query){
 
@@ -115,7 +115,7 @@ function show()
 
     $user_id = $_SESSION['id'];
 
-    $select = "SELECT * FROM cart WHERE user_id='$user_id'";
+    $select = "SELECT * FROM cart WHERE user_id='$user_ld'";
     $result = mysqli_query($conn, $select);
     $carts = null;
 

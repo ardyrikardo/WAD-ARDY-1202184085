@@ -73,7 +73,7 @@ if (!empty($_COOKIE['navbar'])) {
                             <form class="form-inline my-2 my-lg-0 justify-content-end">
                                 <a href="cart.php" style="color: white;"><i class="fas fa-shopping-cart"></i></a>
                                 <a class="text-light">&nbsp; Selamat datang,&nbsp;</a>
-                                <a class="text-light"><b> <?= $_SESSION['nama']; ?></b></a>
+                                <a class="text-light"><b> <?= $_SESSION['name']; ?></b></a>
                             </form>
                         </td>
                         <td>
